@@ -1,0 +1,19 @@
+# do not touch this line
+configVersion: 2
+
+description: mqtt sample
+keywords: 'mqtt'
+name: creatormqtt
+sensors:
+  - temperature
+  - uv
+  - humidity
+  - pressure
+cpu:
+  type: monitor
+  key: cpu
+  display: digit
+  format: round
+  label: cpu
+  
+
